@@ -1,4 +1,9 @@
 opencv-python
 numpy
-face_recognition
+Pillow
 mysql-connector-python
+face_recognition_models
+# No Windows (sem compilador), instale o dlib pronto e depois o face_recognition:
+#   pip install dlib-bin
+#   pip install face_recognition --no-deps
+# Em Linux/Mac com compilador, basta:  pip install face_recognition
